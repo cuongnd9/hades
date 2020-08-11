@@ -1,11 +1,11 @@
 {
-  "name": "typescript-npm-template",
+  "name": "hades-ts",
   "version": "0.0.1",
-  "description": "A TypeScript template 🌼 for npm package",
+  "description": "a tiny utility ☘️ supports downloading file from URL.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "repository": "https://github.com/103cuong/ts-npm-template",
-  "author": "Nguyen Duy Cuong <103cuong@gmail.com>",
+  "repository": "https://github.com/103cuong/hades",
+  "author": "Cuong Tran <103cuong@gmail.com>",
   "keywords": [
     "npm",
     "typescript",
