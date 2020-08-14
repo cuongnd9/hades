@@ -1,11 +1,14 @@
 {
-  "name": "hades-ts",
-  "version": "0.0.1",
+  "name": "@103cuong/hades-ts",
+  "version": "0.1.0",
   "description": "a tiny utility ☘️ supports downloading file from URL.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "repository": "https://github.com/103cuong/hades",
   "author": "Cuong Tran <103cuong@gmail.com>",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "npm",
     "typescript",
@@ -53,8 +56,6 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "diana-js": "^0.6.0",
-    "hera-js": "^0.2.0",
-    "juno-js": "^0.0.2"
+    "axios": "^0.19.2"
   }
 }
